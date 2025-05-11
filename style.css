@@ -49,6 +49,15 @@ body {
     line-height: 2px;
 }
 
+.hst img {
+  margin: 0;
+  padding: 0;
+}
+.face, .name {
+  margin: 0;
+}
+
+
 .hst {
     display: flex;
     align-items: center;
@@ -147,15 +156,15 @@ span {
 }
 
 @media (max-width: 600px) {
-    .njr img {
-        width: 150px; 
+    .header {
+        height: 350px; 
+        top: 50px;
     }
-    .njr{
-        top: 20px;
-        
+    .njr img {
+        width: 170px; 
     }
     .face img {
-        width: 400px;   
+        width: 450px;   
         top:30%;
     }
     .face{
@@ -163,11 +172,11 @@ span {
         right:30px;
     }
     .name h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .name h2 {
-        font-size: 20px;
+        font-size: 30px;
     }
     .hst {
         flex-direction: column;
