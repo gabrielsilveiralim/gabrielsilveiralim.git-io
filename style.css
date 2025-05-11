@@ -146,3 +146,46 @@ span {
     font-size: 20px;
 }
 
+@media (max-width: 480px) {
+    .njr img {
+        width: 150px; 
+    }
+    .njr{
+        top: 20px;
+        
+    }
+    .face img {
+        width: 400px;   
+        top:30%;
+    }
+    .face{
+        top: 40%;
+        right:30px;
+    }
+    .name h1 {
+        font-size: 40px;
+    }
+
+    .name h2 {
+        font-size: 20px;
+    }
+    .hst {
+        flex-direction: column;
+        text-align: center;
+    }
+    .stns img {
+        margin-left: 0;
+        width: 250px;
+    }
+
+    .hst p {
+        font-size: 16px; 
+        margin: 10px 20px;
+        text-align:justify;
+    }
+
+    .hst span {
+        font-size: 20px;
+    }
+}
+
