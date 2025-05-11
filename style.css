@@ -73,6 +73,10 @@ body {
     margin-right: 50px;
 }
 
+span {
+    font-size: 32px;
+}
+
 .card {
     position: relative;
     cursor: pointer;
@@ -141,5 +145,4 @@ body {
     top: 10%;
     font-size: 20px;
 }
-
 
