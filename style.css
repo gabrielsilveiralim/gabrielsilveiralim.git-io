@@ -161,7 +161,9 @@ span {
         top: 50px;
     }
     .njr img {
-        width: 170px; 
+        width: 150px; 
+        margin-right: 20px;
+
     }
     .face img {
         width: 450px;   
