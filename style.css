@@ -155,28 +155,28 @@ span {
     font-size: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 444px) {
     .header {
         height: 350px; 
         top: 50px;
     }
     .njr img {
         width: 150px; 
-        margin-right: 20px;
+        margin-right: 0px;
 
     }
     .face img {
-        width: 450px;   
-        top:30%;
+        width: 400px;   
+        top:10px;
+        margin-right: 20px;
     }
     .face{
         top: 40%;
-        right:30px;
+        margin-right: 60px;
     }
     .name h1 {
         font-size: 50px;
     }
-
     .name h2 {
         font-size: 30px;
     }
@@ -197,6 +197,16 @@ span {
 
     .hst span {
         font-size: 20px;
+    }
+    
+    .card-bio, .card-mom, .card-conq {
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+    }
+
+    .cards h4 {
+        font-size: 16px;
     }
 }
 
